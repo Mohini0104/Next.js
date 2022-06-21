@@ -1,5 +1,5 @@
-// pages/notes/index.jsx
-import React from 'react'
+/*_______________Link Component____________________*/
+/*import React from 'react'
 import Link from 'next/link'
 
 export default () => {
@@ -20,4 +20,26 @@ export default () => {
       ))}
     </div>
   )
+}*/
+/*_______________Link Component_________________________*/
+/*_______________Programatic Routing____________________*/
+import React from 'react'
+import { useRouter } from 'next/router'
+
+export default () => {
+  const router = useRouter()
+  const id =1;
+
+  return (
+    <div>
+      <button onClick={e => router.push('/')}>
+        Go Home
+      </button>
+
+      <button onClick={e => router.push('/user/[id]', `/user/${id}`)}>
+        Dashboard
+      </button>
+    </div>
+  )
 }
+/*_______________Programatic Routing____________________*/
