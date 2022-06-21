@@ -1,3 +1,13 @@
 import React from "react";
-const Page =()=><div>Index Page 1</div>
-export default Page
+import Link from 'next/link'
+const Page =()=>(
+    <div>
+    <h1>Index Page</h1>
+    <Link href='/notes'>
+
+        <a>LINK</a>
+    </Link>
+    </div>
+)
+    
+export default Page;
