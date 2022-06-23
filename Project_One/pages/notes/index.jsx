@@ -1,4 +1,4 @@
-/*_______________Link Component____________________*/
+/*--_________________________Link component_____________________________--*/
 /*import React from 'react'
 import Link from 'next/link'
 
@@ -21,14 +21,14 @@ export default () => {
     </div>
   )
 }*/
-/*_______________Link Component_________________________*/
-/*_______________Programatic Routing____________________*/
+/*--_________________________Link component_____________________________--*/
+/*--________________________Programmatic Routing_____________________________--*/
 import React from 'react'
 import { useRouter } from 'next/router'
 
 export default () => {
   const router = useRouter()
-  const id =1;
+  const id = 2
 
   return (
     <div>
@@ -42,4 +42,3 @@ export default () => {
     </div>
   )
 }
-/*_______________Programatic Routing____________________*/
